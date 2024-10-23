@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #4A5859;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin: 100px auto;
+}
+
+.inside{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    flex-direction: column;
+    margin: 5%;
+    gap: 10px;
+    font-size: 16px;
+}
+
+#length{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+#length:hover{
+    border: red;
+    background-color: rgba(64, 78, 52, 0.329);
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+    transform: scale(1);  
+    margin: 2px;  
+}
+
+.out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#generateBtn{
+    height: 35px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background: linear-gradient(#042f7e,#687ddb);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;   
+}
+
+#generateBtn:hover{
+    background: linear-gradient(#12429c,#7385d8);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+#copyBtn{
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background: linear-gradient(#10bd10,#0f940ab9);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;  
+}
+
+#copyBtn:hover{
+    background: linear-gradient(#099c09,#2bbb26b9);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+#showInput{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+
+@media screen and (max-width:600px) {
+
+}
